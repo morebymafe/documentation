@@ -8,44 +8,30 @@
         <title>JS Documentation</title>
   </head>
   <body>
-    <span id="menu" onclick="openNav()">{MENU}</span>
-    <nav id="nav-bar">
-      <header>
-        JS Documentation
-      </header>
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <ul>
-          <li>
-            <a href= "#Introduction" class="nav-link">Introduction</a></li>
-          <li>
-        <a href = "#What_you_should_already_know" class="nav-link">What you should already know</a></li>
-          <li>
-            <a href = "#JavaScript_and_Java" class="nav-link">JavaScript and Java</a></li>
-          <li>
-            <a href = "#Hello_world" class ="nav-link">Hello world</a></li>
-          <li>
-        <a href = "#Variables" class ="nav-link">Variables</a></li>
-          <li>
-        <a href = "#Declaring_variables" class="nav-link">Declaring variables</a></li>
-          <li>
-            <a href = "#Variable_scope" class="nav-link">Variable scope</a></li>
-          <li>
-            <a href = "#Global_variables" class="nav-link">Global variables</a></li>
-          <li>
-            <a href = "#Constants" class="nav-link">Constants</a></li>
-          <li>
-            <a href = "#Data_types" class="nav-link">Data types</a></li>
-          <li><a href = "#If...else_statement" class="nav-link">if...else statement</a></li>
-          <li>
-            <a href = "#while_statement" class="nav-link">while statement</a></li>
-          <li>
-            <a href = "#Funtion_declarations" class="nav-link">Function declarations</a></li>
-          <li>
-            <a href = "#Reference" class="nav-link">Reference</a></li>
-          </ul>
+    <nav id ="nav-bar" class="sidenav">
+      <a href = "javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href = "#Introduction" class="nav-link">Introduction</a>
+      <a href = "#What_you_should_already_know" class="nav-link">What you should already know</a>
+      <a href = "#JavaScript_and_Java" class="nav-link">JavaScript and Java</a>
+      <a href = "#Hello_world" class ="nav-link">Hello world</a>
+      <a href = "#Variables" class ="nav-link">Variables</a>
+      <a href = "#Declaring_variables" class="nav-link">Declaring variables</a>
+      <a href = "#Variable_scope" class="nav-link">Variable scope</a>
+      <a href = "#Global_variables" class="nav-link">Global variables</a>
+      <a href = "#Constants" class="nav-link">Constants</a>
+      <a href = "#Data_types" class="nav-link">Data types</a>
+      <a href = "#If...else_statement" class="nav-link">if...else statement</a>
+      <a href = "#while_statement" class="nav-link">while statement</a>
+      <a href = "#Funtion_declarations" class="nav-link">Function declarations</a>
+      <a href = "#Reference" class="nav-link">Reference</a>
   </nav>
-    
+  
+  
     <main id = "main-doc">
+      <header>
+        <img src="menu.png" alt="" id="menu-bar" onclick="openNav()">
+        <h1>JS Documentation</h1>
+      </header>
       <section class = "main-section" id="Introduction">
         <h2>
           Introduction
@@ -283,25 +269,18 @@ statement_4_runs_if_condition_is_false; }</code>
               <h2>Reference</h2>
               <ul>
                 <li>
-                  All the documentation in this page is taken from <a href = "#">MDN</a>
+                  All the documentation in this page is taken from <a href = "https://developer.mozilla.org/en-US/docs/Web/JavaScript" class="ref-link">MDN</a>
+                </li>
+                <li>
+                  Check code <a href = "https://developer.mozilla.org/en-US/docs/Web/JavaScript" class="ref-link">here</a>
                 </li>
               </ul>
             </section>
+
+            <button type="button" id="scroll-up" onclick="scrollUp()">Scroll up <img src="up-arrow.png" id="up-btn" alt="" srcset=""></button>
       
     </main>
 
-    <span id="raw">
-      <a href="#"><p>check code</p></a>
-    </span>
-    
-    <a href="#main-doc">
-      <div id="x-nav">
-        Back To the Top
-      </div>
-    </a>
-  
-  
-  
-    
+   
   </body>
 </html>
