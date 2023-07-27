@@ -1,0 +1,109 @@
+body{ background-color: #202020;
+  font-family: poppins;
+  margin: auto;
+  overflow-x: hidden;
+  padding: 10px;
+  
+}
+header{ color: #A2F4F3;
+        font-size: 29px;
+        margin-top: 10px;
+        text-align: center;  
+}
+
+h2{
+  color: white;
+
+}
+.closebtn{
+  font-size: 3em;
+  position: relative;
+  left: 90%;
+  color: #383838;
+}
+ul, p{ font-family: poppins;
+  color: #F52F7F;
+  font-size: 18px;
+  text-align: justify;
+  
+}
+
+#code{ font-family: century gothic;
+       font-size: 15px;
+      background-color: #367588;
+      padding: 10px;
+      border-radius: 10px;
+}
+
+a{
+  text-decoration: none;
+  color: #A2F4F3;
+}
+
+nav{
+  background-color: rgb(245, 47, 127, 0.68);
+  visibility: hidden;
+}
+
+nav header{ text-align: center;
+  
+}
+
+nav li{ display: block;
+      font-size: 25px;
+      border-top: 1px solid;
+      border-color: #101010;
+      width: 100%;
+      padding: 10px;
+  
+}
+
+nav ul{
+  padding-left: 0px;
+}
+
+main{
+  padding: 1em 4em;
+}
+
+#menu{
+  background-color: #F52F7F;
+  padding: 10px;
+  cursor: pointer;
+  text-align: center;
+  margin: 1em;
+}
+
+#x-nav{
+  position: fixed;
+  left: 50%;
+  bottom: 10px;
+  background-color: rgba(245, 47, 126, 0.247);
+  padding: 10px;
+  border: 0;
+  border-radius: 10px;
+  color: #A2F4F3;
+  cursor: pointer;
+  font-size: 20px;
+}
+#raw{
+  position: fixed;
+  right: 0;
+  bottom: 45%;
+
+
+}
+#raw a{
+  text-decoration: none;
+}
+#raw p{
+  color: whitesmoke;
+  background-color:  rgba(245, 47, 126, 0.575);
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 2px 2px 3px rgba(29, 29, 29, 0.657);
+  writing-mode: vertical-lr;
+  text-orientation: mixed;
+}
+
