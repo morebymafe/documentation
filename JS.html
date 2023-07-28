@@ -2,12 +2,18 @@
 <html lang="en-US">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
-    <link rel="stylesheet" href="JS.css">
+    <link rel="stylesheet" href="light.css">
         <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
         <script src="script.js"></script>
         <title>JS Documentation</title>
   </head>
   <body>
+    <div id="switch">
+      <img src="sun.png" class="mode" onclick="changeCSS('light.css')" alt="" srcset="">
+      <img src="moon.png" class="mode" onclick="changeCSS('black.css')" alt="" srcset="">
+    </div>
+   
+
     <nav id ="nav-bar" class="sidenav">
       <a href = "javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
       <a href = "#Introduction" class="nav-link">Introduction</a>
