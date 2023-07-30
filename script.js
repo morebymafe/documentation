@@ -6,6 +6,7 @@ function closeNav() {
     document.getElementById("nav-bar").style.width = '0';
   };
 
+  //code for scroll-up button
   function scrollUp() {
   window.scrollTo({
     top: 0, 
